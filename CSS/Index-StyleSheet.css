@@ -1,0 +1,617 @@
+.nav-brand_txt {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #feda77 !Important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: rgba(82, 82, 82, 1) !important;
+}
+
+.section1 {
+    background-image: url(../Imgs/header-bg.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 75, 0.5);
+    background-blend-mode: overlay;
+
+}
+
+.nav-item_txt {
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.nav-toggler {
+    background-color: transparent;
+    color: white !Important;
+    border-radius: 5px;
+}
+
+.nav-icon {
+    background-image: url(../Imgs/toggle.png);
+    background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.h2_title {
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+}
+
+.h1_title {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+
+}
+
+.more_btn {
+    font-family: 'Blinker', sans-serif;
+    font-size: 30px;
+
+}
+
+.exp_h1 {
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.exp_p {
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.nav-bg {
+    background-color: rgba(113, 110, 90, 0.2) !Important;
+}
+
+/*.Exp_Pic1 {
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.Exp_Pic2 {
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.Exp_Pic3 {
+    height: 400px;
+    background-size: 100% 100%;
+}*/
+
+.layer1 {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 70, 0.4);
+    text-align: center;
+    top: -100%;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.layer2 {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 70, 0.4);
+    text-align: center;
+    top: -100%;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.layer3 {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 70, 0.4);
+    text-align: center;
+    top: -100%;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.adv-person1:hover .layer1 {
+    top: 0;
+}
+
+.adv-person2:hover .layer2 {
+    top: 0;
+}
+
+.adv-person3:hover .layer3 {
+    top: 0;
+}
+
+.bottom-text2 {
+    position: absolute;
+    width: 90%;
+    margin-bottom: 10px;
+    bottom: 0;
+    text-align: center;
+    background-color: #F8F9FC;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 1s;
+    transition-delay: 0.15s;
+}
+
+.bottom-text2 h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #F38181;
+}
+
+.bottom-text2 h3 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+
+.adv-person2:hover .bottom-text2 {
+    bottom: -100%;
+}
+
+.bottom-text1 {
+    position: absolute;
+    width: 90%;
+    margin-bottom: 10px;
+    bottom: 0;
+    text-align: center;
+    background-color: #F8F9FC;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 1s;
+    transition-delay: 0.15s;
+}
+
+.bottom-text1 h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #F38181;
+}
+
+.bottom-text1 h3 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+
+.adv-person1:hover .bottom-text1 {
+    bottom: -100%;
+}
+
+.bottom-text3 {
+    position: absolute;
+    width: 90%;
+    margin-bottom: 10px;
+    bottom: 0;
+    text-align: center;
+    background-color: #F8F9FC;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 1s;
+    transition-delay: 0.15s;
+}
+
+.bottom-text3 h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #F38181;
+}
+
+.bottom-text3 h3 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+
+.adv-person3:hover .bottom-text3 {
+    bottom: -100%;
+}
+
+.Top_Categories {
+    background-color: #f9f9f9;
+}
+
+.box1 {
+    background-image: url(../Imgs/01-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box2 {
+    background-image: url(../Imgs/02-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box3 {
+    background-image: url(../Imgs/03-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box4 {
+    background-image: url(../Imgs/04-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box5 {
+    background-image: url(../Imgs/55.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box6 {
+    background-image: url(../Imgs/6.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box7 {
+    background-image: url(../Imgs/7.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.box8 {
+    background-image: url(../Imgs/8.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+
+}
+
+.bx-layer1 {
+    background-color: #337ab7;
+    transition: all 1s;
+}
+
+.bx-layer1:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer2 {
+    background-color: #1ec1d9;
+    transition: all 1s;
+}
+
+.bx-layer2:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer3 {
+    background-color: #10c45c;
+    transition: all 1s;
+}
+
+.bx-layer3:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer4 {
+    background-color: #47c58e;
+    transition: all 1s;
+}
+
+.bx-layer4:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer5 {
+    background-color: #f9bd44;
+    transition: all 1s;
+}
+
+.bx-layer5:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer6 {
+    background-color: #e948ae;
+    transition: all 1s;
+}
+
+.bx-layer6:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer7 {
+    background-color: #e84b3a;
+    transition: all 1s;
+}
+
+.bx-layer7:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.bx-layer8 {
+    background-color: #92278f;
+    transition: all 1s;
+}
+
+.bx-layer8:hover {
+    opacity: 0.5;
+}
+
+.bx-content h2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.card_custome {
+    border-radius: 0px;
+    border: none;
+}
+
+.card-content1 {
+    background-image: url(../Imgs/01-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.card-content2 {
+    background-image: url(../Imgs/02-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.card-content3 {
+    background-image: url(../Imgs/03-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.card-content4 {
+    background-image: url(../Imgs/06-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.card-content5 {
+    background-image: url(../Imgs/05-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.card-content6 {
+    background-image: url(../Imgs/04-thumbnail.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.card_text {
+    background-color: white;
+    color: black;
+}
+
+.card_text h1 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 35px;
+}
+
+.card_text h2 {
+    font-family: 'Blinker', sans-serif;
+    font-family: 10px !Important;
+    font-style: italic;
+    color: lightgrey;
+}
+
+.card1_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content1:hover .card1_layer {
+    opacity: 0.9;
+}
+
+.card-content1:hover .card1_plus {
+    opacity: 1;
+}
+
+.card2_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content2:hover .card2_layer {
+    opacity: 0.9;
+}
+
+.card-content2:hover .card2_plus {
+    opacity: 1;
+}
+
+.card3_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content3:hover .card3_layer {
+    opacity: 0.9;
+}
+
+
+
+.card4_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content4:hover .card4_layer {
+    opacity: 0.9;
+}
+
+
+.card5_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content5:hover .card5_layer {
+    opacity: 0.9;
+}
+
+
+
+.card6_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card-content6:hover .card6_layer {
+    opacity: 0.9;
+}
+
+.ContactUs {
+    background-image: url(../Imgs/map-image.png);
+    background-color: #212529;
+    background-size: 100% 100%;
+    width: 100%;
+    
+}
+
+.ContactUS h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.ContactUS h4 {
+    color: #6c757d;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Blinker', sans-serif;
+
+}
+
+.form-group > input {
+    padding: 35px;
+}
+
+textarea.form-control {
+    height: 248px;
+}
